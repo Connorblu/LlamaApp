@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PehGgpc98IwGVbDGJbv2tQySU3DuU4daXd2n+9s/5eP2zlD15Qg49K3fcDNF3dnaqCXkRAOV3VCCSN+RJs/zsA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cablu\\Dev\\Repos\\LlamaApp\\LlamaRunner\\LlamaRunner\\LlamaRunner.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cablu\\.nuget\\packages\\llamasharp\\0.3.0\\llamasharp.0.3.0.nupkg.sha512",
+    "C:\\Users\\cablu\\.nuget\\packages\\llamasharp.backend.cuda12\\0.3.0\\llamasharp.backend.cuda12.0.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
