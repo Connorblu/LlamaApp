@@ -1,0 +1,95 @@
+div.scrollView {
+    background-color: white;
+    height: 100%;
+    width: 90%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    overflow-y: scroll;
+    list-style-type: none;
+  }
+  
+  div.chatContainer {
+    float: right; 
+    display: flex; 
+    flex-direction: column; 
+    width: 80%; 
+    height: 100%;
+  }
+
+  div.wrapper {
+    height: 95%;
+    width: 95%;
+    display: block;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .li {
+    list-style-type: none;
+  }
+
+  div.botchatline {
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid lightgray;
+    background-color: blanchedalmond;
+    margin: auto;
+    padding: 10px;
+    width:inherit;
+    height:fit-content;
+    list-style-type: none;
+  }
+  div.userchatline {
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    max-width:inherit;
+    height:fit-content;
+    list-style-type: none;
+  }
+
+  div.imagewrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+    height: 30px;
+    width: 30px;
+    justify-self: left;
+    text-align: left;
+  }
+  
+  div.message {
+    padding: 10px;
+    justify-self: left;
+    text-align: left;
+    overflow-wrap: break-word;
+    font-size: medium;
+    margin-left: 40px;
+    white-space: pre-line;
+  }
+  
+  textarea.chat {
+    margin: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height:fit-content;
+    min-height: 100px;
+  }
+  
+  img.chatimg {
+    float: left;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }

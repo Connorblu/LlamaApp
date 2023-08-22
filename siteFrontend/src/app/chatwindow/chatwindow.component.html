@@ -1,0 +1,27 @@
+<div class="wrapper">
+    <div class="chatContainer">
+      <div class="scrollView" #scroll>
+        <li *ngFor="let message of messageHistory; let i = index">
+          <div [ngClass]="i % 2 == 0 ? 'botchatline' : 'userchatline'">
+            <div class="imagewrapper">
+              <img *ngIf="i % 2 == 0" src="" alt="image" class="chatimg" />
+              <img *ngIf="i % 2 == 1" src="" alt="image" class="chatimg" />
+            </div>
+            <div class="message">
+              {{ message.mes }}
+              <a *ngIf="message.type == 'l'" href="{{message.params![0]}}" target="_blank">{{message.params![1]}}</a>
+            </div>
+          </div>
+        </li>
+      </div>
+      <div style="display: flex; width: 90%; margin: auto">
+        <textarea
+          class="chat"
+          [(ngModel)]="chatInputVal"
+          placeholder="Chat"
+          (keyup.enter)="sendMessageUser(scroll)"
+          style="float:left; width: 100%"
+        ></textarea>
+      </div>
+    </div>
+  </div>
